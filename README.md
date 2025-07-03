@@ -4,7 +4,7 @@ Federated learning project exploring the impact of training configurations and n
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 federated-learning-mask-detection/
@@ -47,17 +47,17 @@ federated-learning-mask-detection/
 
 ---
 
-## 📝 Project Description
+## Project Description
 
 This project investigates the efficiency of federated learning applied to a face mask detection task using both IID and non-IID data scenarios. The experiments compare different training configurations (E1R20, E5R4, E10R2) and their influence on model convergence, performance, and communication efficiency. Additionally, the impact of non-IID distribution is explored through CIFAR-10 and a custom dataset.
 
 ---
 
-## 🔗 Dataset Access
+## Dataset Access
 
 Due to GitHub's 25MB file limit, the dataset is hosted externally.
 
-👉 **Download dataset here**:  
+ **Download dataset here**:  
 [https://drive.google.com/drive/folders/1JtPd9YWX46-C-KGhxys-9XeRTl9wQ6O9?usp=drive_link](https://drive.google.com/drive/folders/1JtPd9YWX46-C-KGhxys-9XeRTl9wQ6O9?usp=drive_link)
 
 After download, place the dataset in the appropriate folder, e.g.:
@@ -69,7 +69,7 @@ data/nomask/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 This project requires:
 
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1: Training with Different Configurations (E1R20, E5R4, E10R2)
 
@@ -132,7 +132,7 @@ python run_all.py
 
 ---
 
-## 🖼️ GUI Demo
+## GUI Demo
 
 To launch the GUI for mask detection:
 
@@ -144,7 +144,7 @@ The GUI interface allows the user to test trained models on custom images.
 
 ---
 
-## 📊 Results
+## Results
 
 Training results are visualized in:
 
@@ -161,20 +161,20 @@ Raw accuracy logs are available in:
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic and non-commercial use only.
 
 ---
 
-## 👤 Author
+## Author
 
 **Chenhao Yu**  
 Computer Engineering Major, Stony Brook University
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This project was developed as part of a group study on distributed learning, under the course  
 **Distributed Machine Learning: Foundations and Algorithms**.
